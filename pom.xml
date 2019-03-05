@@ -12,6 +12,7 @@
 		<module>service-ribbon</module>
         <module>Zuul</module>
         <module>service-Feign</module>
+        <module>sendEmail</module>
     </modules>
 	<packaging>pom</packaging>
 
