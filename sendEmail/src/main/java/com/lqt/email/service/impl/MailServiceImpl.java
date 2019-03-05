@@ -1,6 +1,6 @@
-package com.neo.service.impl;
+package com.lqt.email.service.impl;
 
-import com.neo.service.MailService;
+import com.lqt.email.service.MailService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +10,7 @@ import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
@@ -18,8 +19,8 @@ import java.io.File;
 /**
  * Created by summer on 2017/5/4.
  */
-@Component
-public class MailServiceImpl implements MailService{
+@Service
+public class MailServiceImpl implements MailService {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
 

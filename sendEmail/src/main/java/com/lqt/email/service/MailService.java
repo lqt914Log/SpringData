@@ -1,4 +1,4 @@
-package com.neo.service;
+package com.lqt.email.service;
 
 /**
  * Created by summer on 2017/5/4.
