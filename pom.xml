@@ -13,6 +13,7 @@
 		<module>Zuul</module>
 		<module>service-Feign</module>
 		<module>sendEmail</module>
+        <module>FileUpload</module>
     </modules>
 	<packaging>pom</packaging>
 

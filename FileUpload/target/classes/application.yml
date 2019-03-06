@@ -3,7 +3,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:1110/eureka/
 server:
-  port: 8777
+  port: 8778
 spring:
   application:
-    name: sendEmail
+    name: FileUpload
