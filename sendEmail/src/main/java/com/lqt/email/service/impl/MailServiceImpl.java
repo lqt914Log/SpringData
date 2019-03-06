@@ -9,7 +9,6 @@ import org.springframework.core.io.FileSystemResource;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import javax.mail.MessagingException;
@@ -100,7 +99,6 @@ public class MailServiceImpl implements MailService {
             FileSystemResource file = new FileSystemResource(new File(filePath));
             String fileName = filePath.substring(filePath.lastIndexOf(File.separator));
             helper.addAttachment(fileName, file);
-            //helper.addAttachment("test"+fileName, file);
 
             mailSender.send(message);
             logger.info("带附件的邮件已经发送。");
