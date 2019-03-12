@@ -14,7 +14,9 @@
 		<module>service-Feign</module>
 		<module>sendEmail</module>
         <module>FileUpload</module>
-    </modules>
+        <module>config-server</module>
+		<module>config-client</module>
+	</modules>
 	<packaging>pom</packaging>
 
 	<name>sc-f-chapter1</name>
