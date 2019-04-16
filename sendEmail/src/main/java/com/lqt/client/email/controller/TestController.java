@@ -17,7 +17,6 @@ public class TestController {
     private MailService mailService;
     @RequestMapping(value = "sendEmail")
     public void sendEmail(){
-        //ityouknow@126.com","test simple mail"," hello this is simple mail
         String to = "15801408389@163.com";
         String subject = "this is my test";
         String content = "hello this is simple mail";
