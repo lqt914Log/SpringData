@@ -26,6 +26,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>cz.mallat.uasparser</groupId>
+            <artifactId>uasparser</artifactId>
+            <version>0.6.2</version>
+        </dependency>
     </dependencies>
 
     <build>
