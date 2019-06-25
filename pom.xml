@@ -17,7 +17,8 @@
         <module>config-server</module>
 		<module>config-client</module>
 		<module>service-config</module>
-	</modules>
+        <module>HttpClient</module>
+    </modules>
 	<packaging>pom</packaging>
 
 	<name>sc-f-chapter1</name>
